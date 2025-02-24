@@ -46,7 +46,7 @@ public class SpringDataJpaApplication {
 		//if it is null then null point exception will happen so thats why we put it in an optional class which is java 8 feature
 
 	      //update the user id of 11
-		Optional<Student>u=repo.findById(1);
+		Optional<Student> u=repo.findById(1);
 		   Student change=u.get();//get the id and store it
 		   change.setName("shaunak");
 
