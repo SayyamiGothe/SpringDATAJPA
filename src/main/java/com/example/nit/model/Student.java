@@ -16,6 +16,7 @@ public class Student {
     private String name;
     private int marks;
 
+     //getters and setters
     public int getRollno() {
         return rollno;
     }
